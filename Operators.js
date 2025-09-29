@@ -26,4 +26,18 @@ let nm=" Ankur";
 let ak=Number(nm);
 console.log(ak);//give  NaN=not a  Numebr
 console.log(typeof ak);
+//NuMber to String
+let N=20;
+let S=String(N);
+console.log(S);
+console.log(typeof S);
+
+//Strict Equallity Check Operator
+let n=20;
+let z="20";
+console.log(n==z);// converted string into number internally BY JS
+console.log(n===z);//it also checks the data type like : Number != string , gives false
+
+//BOOL conversion into number
+
 
