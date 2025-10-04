@@ -5,9 +5,9 @@
 // ---------- 1. Basic Array ----------
 // Ordered collection of values with numeric indices
 let Marks = [50, 45, 21, 45, 21, 65];
-console.log(Marks);          // Print array
-console.log(typeof Marks);   // "object"
-console.log(Marks.length);   // Array size
+console.log(Marks); // Print array
+console.log(typeof Marks); // "object"
+console.log(Marks.length); // Array size
 
 // ---------- 2. Heterogeneous Array ----------
 // Arrays can store different types
@@ -39,12 +39,12 @@ console.log(Mix);
 // Classic for loop
 let arr = [10, 20, 30, 40, 50, 60, 70];
 for (let i = 0; i < arr.length; i++) {
-    console.log(arr[i]);
+  console.log(arr[i]);
 }
 
 // for...of loop (simpler)
 for (let num of arr) {
-    console.log(num);
+  console.log(num);
 }
 
 // ---------- 6. Copying Arrays ----------
@@ -93,15 +93,15 @@ console.log(arr6.join(" → ")); // "10 → 20 → 30"
 // lastIndexOf: last occurrence
 // includes: true/false if present
 const Array8 = [11, 22, 33, 44, 55, 66, 77, 88, 22];
-console.log(Array8.indexOf(44));       // 3
-console.log(Array8.lastIndexOf(22));   // 8
-console.log(Array8.includes(33));      // true
+console.log(Array8.indexOf(44)); // 3
+console.log(Array8.lastIndexOf(22)); // 8
+console.log(Array8.includes(33)); // true
 
 // ---------- 12. Sorting ----------
 // Default sort: converts to string (dictionary order)
 const Names = ["Bob", "Ankur", "Rohit", "Joseph", "Boss"];
-Names.sort();     // Ascending (A→Z)
-Names.reverse();  // Descending (Z→A)
+Names.sort(); // Ascending (A→Z)
+Names.reverse(); // Descending (Z→A)
 console.log(Names);
 
 // Numeric sort
@@ -120,4 +120,4 @@ console.log("Flattened:", Array10);
 // Using splice (recommended)
 let arr9 = [10, 20, 30, 40, 50];
 arr9.splice(2, 1); // remove index 2
-console.log(arr9);  // [10, 20, 40, 50]
+console.log(arr9); // [10, 20, 40, 50]
