@@ -1,0 +1,6 @@
+# Ignore Windows system files
+desktop.ini
+
+# Ignore temp JS files
+JSpracTicd.js
+tempCodeRunnerFile.js
